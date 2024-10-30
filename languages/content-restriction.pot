@@ -1,0 +1,644 @@
+# Copyright (C) 2024 Pluginly
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: All-in-One Content Restriction 1.2.2\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/content-restriction\n"
+"POT-Creation-Date: 2024-09-21 15:34:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: app/Admin/Controllers/RuleController.php:20
+msgid "Empty data is provided."
+msgstr ""
+
+#: app/Admin/Controllers/RuleController.php:24
+#: app/Admin/Controllers/RuleController.php:79
+msgid "Rule data is missing."
+msgstr ""
+
+#: app/Admin/Controllers/RuleController.php:28
+#: app/Admin/Controllers/RuleController.php:83
+msgid "Rule title is missing."
+msgstr ""
+
+#: app/Admin/Controllers/RuleController.php:51
+#: app/Admin/Controllers/RuleController.php:71
+#: app/Admin/Controllers/RuleController.php:108
+msgid "Invalid Rule ID is provided."
+msgstr ""
+
+#: app/Admin/Controllers/RuleController.php:75
+msgid "Invalid data is provided."
+msgstr ""
+
+#: app/Admin/Enqueuer.php:66 app/Admin/Menu.php:31
+#: app/Providers/AdminServiceProviders.php:51
+msgid "Content Restriction"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "All-in-One Content Restriction"
+msgstr ""
+
+#: app/Admin/Menu.php:41 app/Admin/Menu.php:42
+msgid "Dashboard"
+msgstr ""
+
+#: app/Admin/Menu.php:50 app/Admin/Menu.php:51
+msgid "All Rules"
+msgstr ""
+
+#: app/Admin/Menu.php:59 app/Admin/Menu.php:60
+msgid "Create Rule"
+msgstr ""
+
+#: app/Admin/Menu.php:68 app/Admin/Menu.php:69
+msgid "Integrations"
+msgstr ""
+
+#: app/Admin/Views/dashboard.php:5
+msgid "Content Restriction Dashboard"
+msgstr ""
+
+#: app/Common/RouteBase.php:42
+msgid "Sorry, you need to login/re-login again."
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:25
+#: app/Repositories/IntegrationsRepository.php:38
+msgid "Directorist"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:34
+msgid "All Listings"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:39
+msgid "All the listings will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:43
+msgid "Specific Listings"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:48
+msgid "Specific listing will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:52
+msgid "Select Listings"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:60
+msgid "Listings With Categories"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:65
+msgid "Listing with the category will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:69
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:70
+#: app/Integrations/WooCommerce/Frontend.php:66
+#: app/Modules/Posts/Frontend.php:49
+msgid "Select Categories"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:78
+msgid "Listings With Locations"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:83
+#: app/Integrations/Directorist/Frontend.php:119
+#: app/Integrations/Directorist/Frontend.php:142
+msgid "Listing with the location will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:87
+msgid "Select Locations"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:96
+msgid "Listings With Directory Type"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:101
+msgid ""
+"Listing with the directory type will be accessible when the set rule is "
+"applied."
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:105
+#: app/Integrations/Directorist/Frontend.php:123
+#: app/Integrations/Directorist/Frontend.php:146
+msgid "Select Directory Type"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:114
+msgid "Listing Sections"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:128
+#: app/Integrations/Directorist/Frontend.php:151
+msgid "Select Sections"
+msgstr ""
+
+#: app/Integrations/Directorist/Frontend.php:137
+msgid "Listing Contact Information"
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:26
+#: app/Repositories/IntegrationsRepository.php:74
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:35
+msgid "All Downloads"
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:40
+msgid "All the downloads will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:44
+msgid "Specific Downloads"
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:49
+msgid "Specific download will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:53
+msgid "Select Downloads"
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:61
+msgid "Downloads With Categories"
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:66
+msgid "Download with the category will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:111
+#: app/Integrations/WooCommerce/Frontend.php:107
+msgid "Placed Order"
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:116
+#: app/Integrations/WooCommerce/Frontend.php:112
+msgid "Only who placed an order should have access to the content."
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:120
+msgid "Select Payment Status"
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:147
+msgid "All Access Pass"
+msgstr ""
+
+#: app/Integrations/EasyDigitalDownloads/Frontend.php:152
+msgid "All Access Pass should have access to the content."
+msgstr ""
+
+#: app/Integrations/FluentCRM/Frontend.php:20
+#: app/Repositories/IntegrationsRepository.php:50
+msgid "FluentCRM"
+msgstr ""
+
+#: app/Integrations/FluentCRM/Frontend.php:30
+#: app/Integrations/WooCommerce/Frontend.php:144
+msgid "Subscriber"
+msgstr ""
+
+#: app/Integrations/FluentCRM/Frontend.php:35
+msgid "Only who is subscriber should have access to the content."
+msgstr ""
+
+#: app/Integrations/FluentCRM/Frontend.php:39
+msgid "Subscriber Status"
+msgstr ""
+
+#: app/Integrations/FluentCRM/Frontend.php:47
+msgid "Specific Lists"
+msgstr ""
+
+#: app/Integrations/FluentCRM/Frontend.php:52
+msgid "Subscriber in specific list should have access to the content."
+msgstr ""
+
+#: app/Integrations/FluentCRM/Frontend.php:56
+msgid "Select Lists"
+msgstr ""
+
+#: app/Integrations/FluentCRM/Frontend.php:61
+msgid "Select Status"
+msgstr ""
+
+#: app/Integrations/LoginMeNow/Frontend.php:18
+#: app/Repositories/IntegrationsRepository.php:62
+msgid "Login Me Now"
+msgstr ""
+
+#: app/Integrations/LoginMeNow/Frontend.php:28
+msgid "Facebook Verified"
+msgstr ""
+
+#: app/Integrations/LoginMeNow/Frontend.php:33
+msgid "Facebook verified user should have access to the content."
+msgstr ""
+
+#: app/Integrations/LoginMeNow/Frontend.php:37
+msgid "Google Verified"
+msgstr ""
+
+#: app/Integrations/LoginMeNow/Frontend.php:42
+msgid "Google verified user should have access to the content."
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:21
+#: app/Repositories/IntegrationsRepository.php:26
+msgid "WooCommerce"
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:31
+msgid "All Products"
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:36
+msgid "All the products will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:40
+msgid "Specific Products"
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:45
+msgid "Specific product will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:49
+#: app/Integrations/WooCommerce/Frontend.php:133
+msgid "Select Products"
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:57
+msgid "Products With Categories"
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:62
+msgid "Product with the category will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:116
+msgid "Select Order Status"
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:124
+msgid "Bought Specific Products"
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:129
+msgid "Only who bought specific product should have access to the content."
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:149
+msgid "Only who subscriber should have access to the content."
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:153
+#: app/Integrations/WooCommerce/Frontend.php:175
+msgid "Select Subscription Status"
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:161
+msgid "Specific Subscription"
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:166
+msgid ""
+"Only who subscriber of specific subscriptions should have access to the "
+"content."
+msgstr ""
+
+#: app/Integrations/WooCommerce/Frontend.php:170
+msgid "Select Subscriptions"
+msgstr ""
+
+#: app/Modules/Blur/Frontend.php:19
+msgid "Blur"
+msgstr ""
+
+#: app/Modules/Blur/Frontend.php:22
+msgid "Blur title, excerpt and description."
+msgstr ""
+
+#: app/Modules/Blur/Frontend.php:26 app/Modules/Randomize/Frontend.php:25
+msgid "Apply To"
+msgstr ""
+
+#: app/Modules/Blur/Frontend.php:29 app/Modules/Randomize/Frontend.php:28
+#: app/Modules/Replace/Frontend.php:27
+msgid "Title"
+msgstr ""
+
+#: app/Modules/Blur/Frontend.php:30 app/Modules/Randomize/Frontend.php:29
+#: app/Modules/Replace/Frontend.php:32
+msgid "Content"
+msgstr ""
+
+#: app/Modules/Blur/Frontend.php:31 app/Modules/Randomize/Frontend.php:30
+#: app/Modules/Replace/Frontend.php:37
+msgid "Excerpt"
+msgstr ""
+
+#: app/Modules/Blur/Frontend.php:35
+msgid "Level"
+msgstr ""
+
+#: app/Modules/Blur/Frontend.php:40
+msgid "Spread"
+msgstr ""
+
+#: app/Modules/Hide/Frontend.php:20
+msgid "Hide"
+msgstr ""
+
+#: app/Modules/Hide/Frontend.php:23
+msgid "Hide entirely."
+msgstr ""
+
+#: app/Modules/LoginBack/Frontend.php:20
+msgid "Login & Back"
+msgstr ""
+
+#: app/Modules/LoginBack/Frontend.php:23
+msgid "Redirect back to the current post or page after the user logged in."
+msgstr ""
+
+#: app/Modules/Pages/Frontend.php:20
+msgid "All Pages"
+msgstr ""
+
+#: app/Modules/Pages/Frontend.php:23
+msgid "All the pages will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Modules/Pages/Frontend.php:27
+msgid "Specific Page"
+msgstr ""
+
+#: app/Modules/Pages/Frontend.php:30
+msgid "Specific page will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Modules/Pages/Frontend.php:34
+msgid "Selected Pages"
+msgstr ""
+
+#: app/Modules/Pages/Frontend.php:42
+msgid "Frontpage"
+msgstr ""
+
+#: app/Modules/Pages/Frontend.php:45
+msgid "Frontpage will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Modules/Posts/Frontend.php:20
+msgid "All Posts"
+msgstr ""
+
+#: app/Modules/Posts/Frontend.php:23
+msgid "All the posts will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Modules/Posts/Frontend.php:27
+msgid "Specific Post"
+msgstr ""
+
+#: app/Modules/Posts/Frontend.php:30
+msgid "Specific post will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Modules/Posts/Frontend.php:34
+msgid "Select Posts"
+msgstr ""
+
+#: app/Modules/Posts/Frontend.php:42
+msgid "Posts With Categories"
+msgstr ""
+
+#: app/Modules/Posts/Frontend.php:45
+msgid "Post with the category will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Modules/Posts/Frontend.php:57
+msgid "Posts With Tags"
+msgstr ""
+
+#: app/Modules/Posts/Frontend.php:60
+msgid "Post with the tag will be accessible when the set rule is applied."
+msgstr ""
+
+#: app/Modules/Posts/Frontend.php:64
+msgid "Select Tags"
+msgstr ""
+
+#: app/Modules/Randomize/Frontend.php:18
+msgid "Randomize"
+msgstr ""
+
+#: app/Modules/Randomize/Frontend.php:21
+msgid "Randomize words in the post or page title, excerpt, and description."
+msgstr ""
+
+#: app/Modules/Redirection/Frontend.php:20
+msgid "Redirect"
+msgstr ""
+
+#: app/Modules/Redirection/Frontend.php:23
+msgid "Redirect to any URL."
+msgstr ""
+
+#: app/Modules/Redirection/Frontend.php:27
+msgid "Redirection to"
+msgstr ""
+
+#: app/Modules/Redirection/Frontend.php:28 app/Modules/Replace/Frontend.php:28
+msgid "Title is a plugin that allows you to blur content on your site."
+msgstr ""
+
+#: app/Modules/Replace/Frontend.php:20
+msgid "Replace"
+msgstr ""
+
+#: app/Modules/Replace/Frontend.php:23
+msgid "Replace title, excerpt, and description with custom message."
+msgstr ""
+
+#: app/Modules/Replace/Frontend.php:33
+msgid "Randomize is a plugin that allows you to blur content on your site."
+msgstr ""
+
+#: app/Modules/Replace/Frontend.php:38
+msgid "Excerpt is a plugin that allows you to blur content on your site."
+msgstr ""
+
+#: app/Modules/WordPressUsers/Frontend.php:20
+msgid "User Role"
+msgstr ""
+
+#: app/Modules/WordPressUsers/Frontend.php:24
+#: app/Modules/WordPressUsers/Frontend.php:40
+msgid "Select who should have access to the content."
+msgstr ""
+
+#: app/Modules/WordPressUsers/Frontend.php:28
+msgid "Select Roles"
+msgstr ""
+
+#: app/Modules/WordPressUsers/Frontend.php:36
+msgid "User Name"
+msgstr ""
+
+#: app/Modules/WordPressUsers/Frontend.php:44
+msgid "Select Users"
+msgstr ""
+
+#: app/Modules/WordPressUsers/Frontend.php:52
+msgid "Logged In User"
+msgstr ""
+
+#: app/Modules/WordPressUsers/Frontend.php:55
+msgid "Only logged in user should have access to the content."
+msgstr ""
+
+#: app/Modules/WordPressUsers/Frontend.php:59
+msgid "Logged Out User"
+msgstr ""
+
+#: app/Modules/WordPressUsers/Frontend.php:62
+msgid "Only logged out user should have access to the content."
+msgstr ""
+
+#: app/Repositories/IntegrationsRepository.php:86
+msgid "Block Editor"
+msgstr ""
+
+#: app/Repositories/IntegrationsRepository.php:98
+msgid "Elementor"
+msgstr ""
+
+#: app/Repositories/IntegrationsRepository.php:110
+msgid "BuddyPress"
+msgstr ""
+
+#: app/Repositories/IntegrationsRepository.php:122
+msgid "Tutor LMS"
+msgstr ""
+
+#: app/Repositories/IntegrationsRepository.php:134
+msgid "WooCommerce Subscriptions"
+msgstr ""
+
+#: app/Repositories/SettingsRepository.php:91
+msgid "Please entire your valid license key"
+msgstr ""
+
+#: app/Repositories/SettingsRepository.php:92
+msgid "License Key"
+msgstr ""
+
+#: app/Repositories/SettingsRepository.php:102
+msgid "General Setting Key"
+msgstr ""
+
+#: app/Repositories/SettingsRepository.php:106
+msgid "General Setting Key 2"
+msgstr ""
+
+#: app/Repositories/SettingsRepository.php:110
+msgid "General Setting Key 3"
+msgstr ""
+
+#: app/Repositories/SettingsRepository.php:114
+msgid "General Setting Key 4"
+msgstr ""
+
+#: app/Repositories/SettingsRepository.php:125
+msgid "Export"
+msgstr ""
+
+#: app/Repositories/SettingsRepository.php:126
+msgid "Export Rules"
+msgstr ""
+
+#: app/Repositories/SettingsRepository.php:133
+msgid "Import"
+msgstr ""
+
+#: app/Repositories/SettingsRepository.php:134
+msgid "Import Rules"
+msgstr ""
+
+#: app/Setup/Activate.php:26
+msgid "An Error Occurred"
+msgstr ""
+
+#: app/Setup/Activate.php:27
+msgid "Your installed PHP Version is: "
+msgstr ""
+
+#: app/Setup/Activate.php:28
+msgid ""
+"<p>The <strong>All in One Content Restriction</strong> plugin requires PHP "
+"version <strong>"
+msgstr ""
+
+#: app/Setup/Activate.php:28
+msgid "</strong> or greater"
+msgstr ""
+
+#: app/Setup/Activate.php:29
+msgid "<p>The version of your PHP is "
+msgstr ""
+
+#: app/Setup/Activate.php:29
+msgid "unsupported and old"
+msgstr ""
+
+#: app/Setup/Activate.php:30
+msgid ""
+"You should update your PHP software or contact your host regarding this "
+"matter.</p>"
+msgstr ""
+
+#: app/Setup/Activate.php:33
+msgid "Plugin Activation Error"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/content-restriction/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Content Restriction - A simple and user-friendly plugin to restrict users / "
+"visitors from viewing posts by restricting access, as simple as that."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Pluginly"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/pluginly/"
+msgstr ""
